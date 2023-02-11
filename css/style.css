@@ -446,7 +446,7 @@ section h4 {
 section p {
     font-family: 'Cabin', sans-serif;
     line-height: 1.5;
-    padding: 0 0 1em 1em
+    padding: 0 2em 0 0;
 }
 
 
@@ -478,6 +478,23 @@ footer {
     width: 100%;
     max-width: 35%;
     border-radius: 1em;
+}
+
+
+/* Attribution
+============================================================================*/
+
+.questions-item h5 a,
+.questions-item h5 {
+    color:rgb(140, 206, 206);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.questions-item h5 {
+    color: #bfc2e0;
+}
+
+.questions-item h5 > a:visited {
+    color: #dedfed;
 }
 
 
